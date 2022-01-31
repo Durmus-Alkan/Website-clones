@@ -1,0 +1,127 @@
+*,html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E6E5D0;
+    display: flex;
+    text-align: center;
+}
+
+.margin-all-elements{
+  margin-top: 20px;
+}
+
+.box-border{
+    border-radius: 15px;
+}
+
+#box{
+    margin: 30px auto;
+    padding: 0 30px;
+    background-color: #F6F6F6;
+    box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.25);
+    
+    width: 431px;
+    /*height eklenebilir*/
+}
+
+
+
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+#content{
+    padding: 0 10px;    
+}
+
+#cv-area{
+    width: 100%;
+    height: 150px;
+    background-color: #FAFAFA;
+    border: 2px dotted #BDBDBD ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button[type='submit']{
+    width: 100%;
+    height: 45px;
+    background-color: #6B5ACC;
+    color: #fff;
+    cursor: pointer
+}
+
+#position select{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#tag{
+  text-align: left;
+    width: 100%;
+    height: 318px;
+    background-color: #fff;
+    padding: 3px 15px;
+    margin-top: 10px;
+    overflow-y: scroll ;
+    color: #8B8B8B;
+    font-size: 14px;
+  
+}
+
+#tag div{
+  margin-top: 25px;
+  width: 45%;
+  float: left;
+  
+}
+
+#tag div input{
+  margin-right: 10px;
+  border: 5px solid #8e8e8e; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#tags input[type='submit']{
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #172531;
+  color: #fff;
+  margin-bottom: 20px;
+  
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #acacac;
+	background-color: #F5F5F5;
+  border-radius: 15px;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 15px;
+	background-color: #acacac;
+}
+
+
+
+  
